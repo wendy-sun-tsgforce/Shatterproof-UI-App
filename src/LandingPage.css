@@ -1,0 +1,51 @@
+.landing-page-main-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #60c5b7;
+}
+
+.lp-top-row {
+  width: 100%;
+  height: 150px;
+  padding: 20px;
+  position: relative;
+}
+
+.lp-mind-row {
+  width: 100%;
+  height: calc(100% - 70px);
+  padding: 20px;
+  position: relative;
+}
+
+
+.logo {
+  width: 200px;
+  height: 100px;
+}
+
+.menu {
+  margin-top: 30px;
+  width: 60%;
+  height: auto;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.no-margin {
+  margin-top: 0 !important;
+}
+
+.menu-tab-button {
+  font-size: 22px;
+  font-weight: 600;
+  background-color: transparent;
+  color: white;
+
+}
