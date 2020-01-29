@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.png';
 import {Component} from 'react';
 import './LandingPage.css';
-import  PledgePage from './PledgePage'
+import  PledgePage from './PledgePage';
 
 export interface ILandingPageProps {
 
