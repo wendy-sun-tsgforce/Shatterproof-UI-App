@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.png';
+import crowd from './shatterproof.jpg';
 import {Component} from 'react';
 import './LandingPage.css';
 import  PledgePage from './PledgePage'
@@ -48,12 +49,16 @@ class LandingPage extends Component<ILandingPageProps, ILandingPageState> {
     </div>
 
       <div className="lp-mid-row">
-        {this.state.activeTab === 1 ? <PledgePage /> : <div/> }
+      <div className="lp-mid-row-left">
+        <img className="crowd" src={crowd}></img>
       </div>
 
-      <div className="lp-mid-row">
-        {this.state.activeTab === 2 ? <RegistrationPage /> : <div/> }
+      <div className="lp-mid-row-right float-right" >
+      {this.state.activeTab === 1 && (<PledgePage/>)}
       </div>
+
+      </div>
+
 
       </div>
     );
