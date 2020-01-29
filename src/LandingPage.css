@@ -1,7 +1,6 @@
 .landing-page-main-container {
   height: 100vh;
   width: 100vw;
-  background-color: #60c5b7;
 }
 
 .lp-top-row {
@@ -9,25 +8,53 @@
   height: 150px;
   padding: 20px;
   position: relative;
+  background-color: white;
 }
 
-.lp-mind-row {
+.lp-mid-row {
   width: 100%;
-  height: calc(100% - 70px);
-  padding: 20px;
+  height: calc(100vh - 150px) !important;
   position: relative;
+}
+
+.lp-mid-row-left {
+  height: 100%;
+  width: 32%;
+  float: left;
+  background-color: #FFECD6;
+}
+
+.lp-mid-row-mid {
+  height: 100%;
+  width: 13%;
+  float: left;
+  background-color: white;
+  z-index: -1;
+}
+
+.lp-mid-row-right {
+  height: 100%;
+  width: 55%;
+  background-color: #5DB3A4;
 }
 
 
 .logo {
-  width: 200px;
+  width: 130px;
   height: 100px;
+}
+
+.crowd {
+  margin-top: 180px;
+  margin-left: 400px;
+  z-index: 900;
 }
 
 .menu {
   margin-top: 30px;
   width: 60%;
   height: auto;
+  margin-right: 30px;
 }
 
 .float-left {
@@ -46,6 +73,12 @@
   font-size: 22px;
   font-weight: 600;
   background-color: transparent;
-  color: white;
+  color:#28403C;
+}
 
+.menu-tab-button-active {
+  font-size: 22px;
+  font-weight: 600;
+  background-color: transparent;
+  color: #5DB3A4;
 }
