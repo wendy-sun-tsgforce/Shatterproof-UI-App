@@ -1,0 +1,14 @@
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 30px;
+}
+
+.elem {
+  margin: 15px 10px 0px 55px;
+}
+
+.elem-2 {
+  margin: 15px 20px 0px 10px;
+}
