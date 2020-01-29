@@ -1,0 +1,17 @@
+h2  {
+  margin: 30px;
+  font-size: 20px;
+}
+
+.pledge-page-main {
+  height: 100%;
+  background-color: #60c5b7;
+}
+
+.elem-3 {
+  margin: 15px 10px 50px 55px;
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  border-radius: 5px;
+}
