@@ -1,6 +1,7 @@
 import {Component} from 'react';
 import React from 'react';
 import './MyForm.css';
+import './PledgePage.css'
 
 interface MyFormProps {
 
@@ -31,10 +32,11 @@ class MyForm extends Component {
   render() {
     return (
       <form className="form-inline">
-        <p className="elem">First Name: <input className="elem-2" type="text" name="firstName" onChange={this.myChangeHandler}/></p>
+        <p className="elem">First Name: <input className="elem-2" type="text" name="firstName"
+         onChange={this.myChangeHandler}/></p>
         <p className="elem">Last Name: <input className="elem-2" type="text" name="lastName" onChange={this.myChangeHandler}/></p>
         <p className="elem">Email: <input className="elem-2" type="text" name="email" onChange={this.myChangeHandler}/></p>
-        <p className="elem">DOB:
+        <p className="elem">Today's Date:
         <input className="elem-2" type="text" name="dob" onChange={this.myChangeHandler}/></p>
       </form>
     );

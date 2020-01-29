@@ -7,14 +7,14 @@ h2  {
   height: 100%;
   background-color: #60c5b7;
   align-content: center;
-
+  margin: 50px;
+  top: 50%;
 }
 
 .elem-3 {
-  margin: 15px 10px 50px 55px;
+  margin: 15px 10px 50px 75px;
   height: 40px;
   width: 100px;
-  background-color: white;
   border-radius: 5px;
 }
 .pledge {
@@ -36,4 +36,17 @@ h2  {
   vertical-align: middle;
   margin: 10px 20px 0px 40px;
   border-radius: 40px;
+}
+
+.pledge-form {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.font-color-white {
+  color: white;
+  font-family: inherit;
 }
