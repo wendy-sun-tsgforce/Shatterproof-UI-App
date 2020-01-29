@@ -24,11 +24,22 @@ class PledgePage extends Component<IPledgePageProps, IPledgePageState> {
     return (
       <div className="pledge-page-main">
       <html>
+      <div className="pledge">
         <h1>I, Pledge</h1>
-        <h2>Slave spirituals often had hidden double meanings. On one level, spirituals referenced heaven, Jesus, and the soul, but on another level, the songs spoke about slave resistance. For example, according to Frederick Douglass, the song “O Canaan, Sweet Canaan” spoke of slaves’ longing for heaven, but it also expressed their desire to escape to the North. Careful listeners heard this second meaning in the following lyrics: “I don’t expect to stay / Much longer here. / Run to Jesus, shun the danger. / I don’t expect to stay.” When slaves sang this song, they could have been speaking of their departure from this life and their arrival in heaven; however, they also could have been describing their plans to leave the South and run, not to Jesus, but to the North. Slaves even used songs like “Steal Away to Jesus (at midnight)” to announce to other slaves the time and place of secret, forbidden meetings. What whites heard as merely spiritual songs, slaves discerned as detailed messages. The hidden meanings in spirituals allowed slaves to sing what they could not say.
+        <h2>Addiction is a chronic, relapsing brain disease. Just as with other diseases, medications can be a highly effective treatment. In fact, FDA-approved medications like
+        buprenorphine, methadone, and naltrexone are widely considered by experts and researchers to be the gold standard of treatment for opioid use disorder.
+But far too often, stigma, shame, and misinformation prevent patients in need from receiving the medications that could save their lives. And people who do use medications to treat their addiction sometimes feel ostracized and judged, like they’re not “really” in recovery.
+This has to end.
+Medication-assisted treatment (MAT) is the practice of utilizing medications as well as cognitive and behavioral therapies to treat substance use disorders. These medications prevent overdose, ease symptoms of withdrawal, decrease cravings, and establish normal brain function. Their usage is recognized by every leading group of addiction and health experts, from the National Institute on Drug Abuse (NIDA) and the American Society of Addiction Medicine (ASAM) to the Centers for Disease Control (CDC) and the World Health Organization (WHO).
+People using medications for addiction can work, drive, and care for their loved ones. Using medications to support addiction treatment is not “replacing one drug with another”—it’s a lifesaving and evidence-based approach.
+Every person with addiction should receive an individualized treatment plan. Medications may not be right for everyone—but they should be made fully available as an option, without derision or judgment, to everyone entering treatment for a substance use disorder.
+Add your name NOW to show that you stand with people who use medications to support their recovery. Let them know that you don’t buy into the judgments or the discrimination, and that you value every type of recovery journey.
         </h2>
+        </div>
+        <div className="form">
         <MyForm/>
         <button className="elem-3" type="button">Submit</button>
+        </div>
       </html>
       </div>
     );

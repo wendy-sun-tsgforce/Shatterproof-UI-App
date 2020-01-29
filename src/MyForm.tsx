@@ -2,10 +2,10 @@ import {Component} from 'react';
 import React from 'react';
 import './MyForm.css';
 
-interface Props {
+interface MyFormProps {
 
 }
-interface State {
+interface MyFormState {
   firstName: string,
   lastName: string,
   email: string,
