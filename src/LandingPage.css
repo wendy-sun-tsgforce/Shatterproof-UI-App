@@ -28,6 +28,7 @@
   margin-top: 30px;
   width: 60%;
   height: auto;
+  margin-right: 30px;
 }
 
 .float-left {
@@ -47,5 +48,11 @@
   font-weight: 600;
   background-color: transparent;
   color: white;
+}
 
+.menu-tab-button-active {
+  font-size: 22px;
+  font-weight: 600;
+  background-color: transparent;
+  color:#28403C;
 }
