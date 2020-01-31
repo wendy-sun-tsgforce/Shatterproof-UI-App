@@ -55,6 +55,7 @@ class LandingPage extends Component<ILandingPageProps, ILandingPageState> {
 
       <div className="lp-mid-row-right float-right" >
       {this.state.activeTab === 1 && (<PledgePage/>)}
+      {this.state.activeTab === 2 && (<RegistrationPage/>)}
       </div>
 
       </div>
