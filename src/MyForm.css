@@ -13,4 +13,13 @@
 .elem-2 {
   position: relative;
   float: right;
+  margin: 15px 10px 0px 55px;
+  font-size: 18px;
+  color: white;
+  font-family: inherit;
+}
+
+.elem-2 {
+  margin: 15px 20px 0px 10px;
+  height: 24px;
 }

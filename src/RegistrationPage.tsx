@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.png';
 import {Component} from 'react';
+import './PledgePage.css';
+import RegistrationForm from './RegistrationForm'
 
 export interface IRegistrationPageProps {
 
@@ -19,9 +21,16 @@ class RegistrationPage extends Component<IRegistrationPageProps, IRegistrationPa
 
 
   render() {
-    return (
-      <h1>Registration Page!!</h1>
-    );
+      return (
+        <div className="pledge-page-main">
+        <div className="pledge-form">
+          <h1 className="font-color-white">Welcome to the Shatterproof family!</h1>
+          <a className="font-color-white">Already have an account? Click here.</a>
+          <RegistrationForm/>
+          </div>
+          <button className="elem-3" type="button">Submit</button>
+        </div>
+      );
   }
 }
 
