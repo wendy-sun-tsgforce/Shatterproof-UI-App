@@ -1,84 +1,150 @@
+.col-sm-6 {
+  min-height: 500px;
+  background: lightgrey;
+  text-align: center;
+}
+
+.image-wrap {
+  display: inline-block;
+  position: relative;
+  min-height: 300px;
+  min-width: 300px;
+  width: 30vh;
+  height: 30vh;
+  margin: 15px;
+}
+
+.image-wrap .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font: 30px sans-serif;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity .5s ease;
+  background-color: black;
+  padding-top: 100px;
+  border-radius: 10px;
+}
+
+.image-wrap:hover .overlay {
+  opacity: 0.9;
+}
+
+.menu-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.square-words {
+  background-size: 200% auto;
+  background-image: url("//images.unsplash.com/photo-1500099817043-86d46000d58f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+}
+
+.square-pledge {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url("//i.dlpng.com/static/png/3932256-pledge-hand-png-png-image-pledge-png-272_272_preview.webp");
+}
+
+.square-running {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url("//cdn3.rallybound.com/Content/images/img/11421/526718/w2500-h785/01.jpg");
+}
+
+.square-email {
+  background-size: auto 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("//lboro.ac.uk/media/wwwlboroacuk/external/content/services/itservices/ittoolkit/Icon_4%20.jpg");
+}
+
+.square-amb {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("//factsuite.com/blog/wp-content/uploads/2019/05/FS-47-Tips-to-Make-employees-Your-Brand-Ambassadors-900x450.png");
+}
+
+.square-toolkit {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("//odi.org/sites/odi.org.uk/files/styles/chapter_responsive_16x9_500/public/pod-images/mel_toolkit_graphics_introduction.png?itok=OgCbFLgT");
+}
+
+.square-event {
+  background-size: 80% 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("//roundupwp.com/wp-content/uploads/2016/11/RTEC-Logo.png");
+}
+
+.square-donate {
+  background-size: 80% 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("//mnovarian.org/wp-content/uploads/2019/05/donate.svg");
+}
+
+.square-facebook {
+  background-size: 80% 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("//rkdgroup.com/wp-content/uploads/2019/01/facebook-fundraising.png");
+}
+
+.square-media {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("//miro.medium.com/max/12032/0*0rElzj0ChNbjk-i0");
+}
+
+.square-reading {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("//media.wired.com/photos/5be4cd03db23f3775e466767/master/w_2560%2Cc_limit/books-521812297.jpg");
+}
+
+.square-merch {
+  background-size: 80% 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("//freeiconshop.com/wp-content/uploads/edd/shopping-bag-flat.png");
+}
+
+
+.fa-arrow-right {
+  content: "\f061";
+}
+
+#element-with-background-image {
+   position: relative;
+   background-image: url("//spin.atomicobject.com/wp-content/uploads/20170324102432/portfolio-tips-feature-image.jpg");
+   min-height: 300px;
+   min-width: 300px;
+   width: 30vh;
+   height: 30vh;
+   margin: 15px;
+}
+
 .landing-page-main-container {
   height: 100vh;
   width: 100vw;
+  padding-left: 5vw;
 }
 
-.lp-top-row {
-  width: 100%;
-  height: 150px;
-  padding: 20px;
-  position: relative;
-  background-color: white;
-}
-
-.lp-mid-row {
-  width: 100%;
-  height: calc(100vh - 150px) !important;
-  position: relative;
-}
-
-.lp-mid-row-left {
-  height: 100%;
-  width: 32%;
-  float: left;
-  background-color: #FFECD6;
-}
-
-.lp-mid-row-mid {
-  height: 100%;
-  width: 13%;
-  float: left;
-  background-color: white;
-  z-index: -1;
-}
-
-.lp-mid-row-right {
-  height: 100%;
-  width: 55%;
-  background-color: #5DB3A4;
-}
-
-
-.logo {
-  width: 130px;
-  height: 100px;
-}
-
-.crowd {
-  margin-top: 180px;
-  margin-left: 400px;
-  z-index: 900;
-}
-
-.menu {
-  margin-top: 30px;
-  width: 60%;
-  height: auto;
-  margin-right: 30px;
-}
-
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
-}
-
-.no-margin {
-  margin-top: 0 !important;
-}
-
-.menu-tab-button {
-  font-size: 22px;
-  font-weight: 600;
-  background-color: transparent;
-  color:#28403C;
-}
-
-.menu-tab-button-active {
-  font-size: 22px;
-  font-weight: 600;
-  background-color: transparent;
-  color: #5DB3A4;
+.left-align {
+  text-align: left;
+  padding: 0px 15px 0px 15px;
 }
